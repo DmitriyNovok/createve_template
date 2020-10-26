@@ -149,6 +149,14 @@ h1, h2, h3, h4, h5, h6 {
     padding: 90px 0 100px;
 }
 
+.section--design {
+    background: url("../images/design/background.jpg") center no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    padding-bottom: 0;
+}
+
 .section__header {
     width: 100%;
     max-width: 960px;
@@ -309,4 +317,22 @@ h1, h2, h3, h4, h5, h6 {
     color: #999999;
     line-height: 1.6;
     margin-bottom: 50px;
+}
+
+.devices {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.devices__item {
+    display: block;
+}
+
+.devices--iphone {
+    position: absolute;
+    bottom: -80px;
+    right: 0;
+    z-index: 2;
 }
