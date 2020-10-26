@@ -153,7 +153,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     max-width: 960px;
     text-align: center;
-    margin: 0 auto 40px;
+    margin: 0 auto 60px;
 }
 
 .section__suptitle {
@@ -271,3 +271,42 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
 }
 
+.services {
+    display: flex;
+    margin: 50px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.services:last-child {
+    border-bottom: none;
+}
+
+.services__item {
+    flex: 1 1 0;
+    position: relative;
+    padding-left: 85px;
+    padding-right: 35px;
+}
+
+.service__image {
+    position: absolute;
+    top: 0;
+    left: 28px;
+    z-index: 1;
+}
+
+.service__title {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.service__description {
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
